@@ -1,0 +1,108 @@
+{ decls }
+namespace std {  }
+namespace RAT { namespace DS {  } }
+namespace json {  }
+namespace RAT {  }
+namespace RAT { class DBLink; }
+template <typename T> class simple_ptr_nocopy;
+
+[ libRATDict.so ]
+# List of selected classes
+class RAT::DB
+class RAT::DBFieldCallback
+class RAT::DBJsonLoader
+class RAT::DBLink
+class RAT::DBLinkPtr
+class RAT::DBTable
+class RAT::DBTextLoader
+class RAT::DS::BonsaiFit
+class RAT::DS::Calib
+class RAT::DS::Centroid
+class RAT::DS::EV
+class RAT::DS::MC
+class RAT::DS::MCPMT
+class RAT::DS::MCParticle
+class RAT::DS::MCPhoton
+class RAT::DS::MCSummary
+class RAT::DS::MCTrack
+class RAT::DS::MCTrackStep
+class RAT::DS::PMT
+class RAT::DS::PMTInfo
+class RAT::DS::PathFit
+class RAT::DS::PosFit
+class RAT::DS::Root
+class RAT::DS::Run
+class RAT::DS::RunStore
+class RAT::DSReader
+class RAT::DSWriter
+class RAT::HTTPDownloader
+class RAT::Log
+class RAT::ObjDbl
+class RAT::ObjInt
+class RAT::TrackCursor
+class RAT::TrackNav
+class RAT::TrackNode
+class json::Value
+class map<int,int>
+class map<int,vector<int> >
+class pair<basic_string<char,char_traits<char>,allocator<char> >,basic_string<char,char_traits<char>,allocator<char> > >
+class pair<string,string>
+class simple_ptr_nocopy<RAT::DBLink>
+class vector<RAT::DBTable*>
+class vector<RAT::DS::Calib>
+class vector<RAT::DS::EV*>
+class vector<RAT::DS::EV>
+class vector<RAT::DS::MC>
+class vector<RAT::DS::MCPMT*>
+class vector<RAT::DS::MCPMT>
+class vector<RAT::DS::MCParticle*>
+class vector<RAT::DS::MCParticle>
+class vector<RAT::DS::MCPhoton*>
+class vector<RAT::DS::MCPhoton>
+class vector<RAT::DS::MCTrack*>
+class vector<RAT::DS::MCTrack>
+class vector<RAT::DS::MCTrackStep*>
+class vector<RAT::DS::MCTrackStep>
+class vector<RAT::DS::PMT*>
+class vector<RAT::DS::PMT>
+class vector<RAT::DS::PMTInfo>
+class vector<RAT::DS::Root>
+class vector<RAT::TrackNode*>
+class vector<TVector3>
+class vector<pair<basic_string<char,char_traits<char>,allocator<char> >,int> >
+class vector<pair<string,int> >
+header RAT/DB.hh
+header RAT/DBFieldCallback.hh
+header RAT/DBJsonLoader.hh
+header RAT/DBLink.hh
+header RAT/DBTable.hh
+header RAT/DBTextLoader.hh
+header include/RAT/DS/BonsaiFit.hh
+header include/RAT/DS/Calib.hh
+header include/RAT/DS/Centroid.hh
+header include/RAT/DS/EV.hh
+header include/RAT/DS/MC.hh
+header include/RAT/DS/MCPMT.hh
+header include/RAT/DS/MCParticle.hh
+header include/RAT/DS/MCPhoton.hh
+header include/RAT/DS/MCSummary.hh
+header include/RAT/DS/MCTrack.hh
+header include/RAT/DS/MCTrackStep.hh
+header include/RAT/DS/PMT.hh
+header include/RAT/DS/PMTInfo.hh
+header include/RAT/DS/PathFit.hh
+header include/RAT/DS/PosFit.hh
+header include/RAT/DS/Root.hh
+header include/RAT/DS/Run.hh
+header include/RAT/DS/RunStore.hh
+header RAT/DSReader.hh
+header RAT/DSWriter.hh
+header RAT/HTTPDownloader.hh
+header RAT/Log.hh
+header RAT/ObjDbl.hh
+header RAT/ObjInt.hh
+header RAT/TrackCursor.hh
+header RAT/TrackNav.hh
+header RAT/TrackNode.hh
+header RAT/json.hh
+# List of selected typedefs and outer classes

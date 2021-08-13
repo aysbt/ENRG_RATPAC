@@ -1,0 +1,310 @@
+RAT, version 1.0.1
+Status messages enabled: info detail 
+Hostname: enrg-Veriton-M275 PID: 19966
+Seeding random number generator: 754294831
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/BNL_WLS_MODEL.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/BONSAI.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/DAQ.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/DETECTOR.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/DICEBOX158GD.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/ELEMENTS.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/IBD.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/IO.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/MATERIALS.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/MATERIALS_WM_wbls_Jan21.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/MATERIALS_Watchman.ratdb ... DB: Replacing default MATERIAL[photocathode_R7081HQE] in database.
+
+DB: Replacing default MATERIAL[photocathode_R3600] in database.
+
+Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/MC.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/NOISE.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/NOISEProc.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/NTUPLE.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/OPTICS.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/OPTICS_WM_wbls_Jan21.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/OPTICS_Watchman.ratdb ... DB: Replacing default OPTICS[photocathode_R7081HQE] in database.
+
+DB: Replacing default OPTICS[photocathode_R3600] in database.
+
+Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/PMT.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/PMTCHARGE.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/PMTTRANSIT.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/RUN.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/SPECTRUM.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/SPECTRUM_SUPERNOVA.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/SURFACES_Watchman.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/WIMP.ratdb ... Success!
+
+**************************************************************
+ Geant4 version Name: geant4-10-04-patch-03    (8-February-2019)
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+<<< Geant4 Physics List simulation engine: Shielding 2.1
+
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Current available graphics systems are:
+ASCIITree (ATree)
+DAWNFILE (DAWNFILE)
+G4HepRep (HepRepXML)
+G4HepRepFile (HepRepFile)
+G4HepRep (HepRepXML)
+RayTracer (RayTracer)
+VRML1FILE (VRML1FILE)
+VRML2FILE (VRML2FILE)
+OpenGLImmediateQt (OGLIQt)
+OpenGLStoredQt (OGLSQt)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByCharge
+  drawByParticleID
+  drawByOriginVolume
+  drawByAttribute
+
+Registered models:
+  watchmodel (Current)
+
+Registered filter factories:
+  chargeFilter
+  particleFilter
+  originVolumeFilter
+  attributeFilter
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+"/vis/list" to see available colours.
+Available UI session types: [ Qt, GAG, tcsh, csh ]
+DB: Setting DETECTOR[] experiment to Testbed
+DB: Setting DETECTOR[] geo_file to Testbed/Testbed_30t.geo
+Loading experiment-specific RATDB files for: Testbed
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/Testbed/ELEMENTS.ratdb ... DB: Replacing default ELEMENT[Gadolinium] in database.
+
+DB: Replacing default ELEMENT[Bismuth] in database.
+
+DB: Replacing default ELEMENT[Germanium] in database.
+
+Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/Testbed/MATERIALS.ratdb ... DB: Replacing default MATERIAL[C15H24_lab] in database.
+
+DB: Replacing default MATERIAL[C16H26_lab] in database.
+
+DB: Replacing default MATERIAL[C17H28_lab] in database.
+
+DB: Replacing default MATERIAL[C18H30_lab] in database.
+
+DB: Replacing default MATERIAL[C19H32_lab] in database.
+
+DB: Replacing default MATERIAL[lab] in database.
+
+DB: Replacing default MATERIAL[gadolinium] in database.
+
+DB: Replacing default MATERIAL[BGO_scint] in database.
+
+Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/Testbed/OPTICS.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/Testbed/PMTINFO_100t.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/Testbed/PMTINFO_30t.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/Testbed/PMT_Testbed.ratdb ... Success!
+DB: Loading /home/enrg/Software/WMUtils/ratpac/data/Testbed/Testbed_PARAMS.ratdb ... Success!
+Loading detector geometry from Testbed/Testbed_30t.geo
+Constructing detector materials...
+Loaded material: [AR_coating]
+Loaded material: [BGO_scint]
+Loaded material: [C15H24_lab]
+Loaded material: [C16H26_lab]
+Loaded material: [C17H28_lab]
+Loaded material: [C18H30_lab]
+Loaded material: [C19H32_lab]
+Loaded material: [Gd_wbls_10pct]
+[Gd_wbls_10pct] thrown on construction queue
+Loaded material: [MgF2]
+Loaded material: [NaI]
+Loaded material: [Prelude]
+Loaded material: [SNOnorite]
+Loaded material: [TiO2]
+Loaded material: [ZnO2]
+Loaded material: [acrylic_SpartechSheet]
+Loaded material: [acrylic_black]
+Loaded material: [acrylic_polycast]
+Loaded material: [acrylic_rpt]
+Loaded material: [acrylic_suvt]
+Loaded material: [acrylic_uva_McMaster]
+Loaded material: [acrylic_uvt]
+Loaded material: [acrylic_uvt_RPT]
+Loaded material: [acrylic_uvt_good]
+Loaded material: [acrylic_white]
+Loaded material: [air]
+Loaded material: [aluminum]
+Loaded material: [beryllium]
+Loaded material: [black_water]
+[black_water] thrown on construction queue
+Loaded material: [borosilicate_glass]
+Loaded material: [cardboard]
+Loaded material: [concrete]
+Loaded material: [concrete_chess]
+Loaded material: [concrete_kaplan]
+Loaded material: [concrete_mcnp]
+Loaded material: [copper]
+Loaded material: [cryostat_vacuum]
+Loaded material: [dead_liquid_Ar]
+Loaded material: [dead_liquid_He]
+Loaded material: [dead_liquid_Ne]
+Loaded material: [dead_liquid_Xe]
+Loaded material: [delrin]
+Loaded material: [dodecane]
+Loaded material: [doped_water]
+[doped_water] thrown on construction queue
+Loaded material: [eljen_WLSP]
+Loaded material: [finemet]
+Loaded material: [gadolinium]
+Loaded material: [gadolinium_chloride]
+Loaded material: [gadolinium_sulfate]
+Loaded material: [gd_scintillator]
+[gd_scintillator] thrown on construction queue
+Loaded material: [glass]
+Loaded material: [gunite]
+Loaded material: [hamamatsu_borosilicate_glass]
+Loaded material: [kevlar]
+Loaded material: [lab]
+Loaded material: [lead]
+Loaded material: [lightcone]
+Loaded material: [liquid_Ar]
+Loaded material: [liquid_He]
+Loaded material: [liquid_Ne]
+Loaded material: [liquid_Xe]
+Loaded material: [mineral_oil]
+Loaded material: [mirror]
+Loaded material: [nonreflective_tarp]
+[nonreflective_tarp] thrown on construction queue
+Loaded material: [nylon]
+Loaded material: [optical_grease]
+Loaded material: [pen]
+Loaded material: [pet]
+Loaded material: [photocathode]
+Loaded material: [photocathode_ETEL]
+Loaded material: [photocathode_R11065]
+Loaded material: [photocathode_R11780]
+Loaded material: [photocathode_R1408]
+Loaded material: [photocathode_R3600]
+Loaded material: [photocathode_R5912_HQE]
+Loaded material: [photocathode_R7081HQE]
+Loaded material: [photocathode_R7081_hqe]
+Loaded material: [photocathode_et9390b]
+Loaded material: [plastic_scint]
+Loaded material: [pmt_vacuum]
+Loaded material: [polyethylene_black]
+Loaded material: [polypropylene]
+Loaded material: [polystyrene]
+Loaded material: [polystyrene_foam]
+Loaded material: [ppo]
+Loaded material: [pseudocumene]
+Loaded material: [ptfe]
+Loaded material: [ptfe_fabric]
+Loaded material: [pvc]
+Loaded material: [pvc_black]
+Loaded material: [pvc_white]
+Loaded material: [quartz]
+Loaded material: [reflective_tarp]
+Loaded material: [retro_reflector]
+Loaded material: [rock]
+Loaded material: [salt_water]
+Loaded material: [sapphire]
+Loaded material: [scintillator]
+Loaded material: [stainless_steel]
+Loaded material: [stainless_steel_316L]
+Loaded material: [steel]
+Loaded material: [styrofoam]
+Loaded material: [tungsten]
+Loaded material: [tungsten_alloy]
+Loaded material: [tyvek]
+Loaded material: [vikuiti_esr]
+Loaded material: [water]
+Loaded material: [wbls_10pct]
+Loaded material: [wbls_10pct_gdS_0p2]
+Loaded material: [wbls_1pct_WM_0420]
+Loaded material: [wbls_1pct_WM_0820]
+Loaded material: [wbls_1pct_WM_0820_cons]
+Loaded material: [wbls_1pct_gd_01pct_WM_0420]
+Loaded material: [wbls_1pct_gd_01pct_WM_0820]
+Loaded material: [wbls_1pct_gd_01pct_WM_0820_cons]
+Loaded material: [wbls_20pct]
+Loaded material: [wbls_20pct_gdS_0p2]
+Loaded material: [wbls_3pct_WM_0420]
+Loaded material: [wbls_3pct_WM_0820]
+Loaded material: [wbls_3pct_WM_0820_cons]
+Loaded material: [wbls_3pct_gd_01pct_WM_0420]
+Loaded material: [wbls_3pct_gd_01pct_WM_0820]
+Loaded material: [wbls_3pct_gd_01pct_WM_0820_cons]
+Loaded material: [wbls_5pct]
+Loaded material: [wbls_5pct_WM_0420]
+Loaded material: [wbls_5pct_WM_0820]
+Loaded material: [wbls_5pct_WM_0820_cons]
+Loaded material: [wbls_5pct_gdS_0p2]
+Loaded material: [wbls_gd_01pct_ly100_WM_0121]
+Loaded material: [wbls_ly500_WM_0121]
+Loaded material: [white_water]
+queue (pass1): [Gd_wbls_10pct]
+queue (pass1): [black_water]
+[black_water] found and removed from construction queue
+queue (pass1): [doped_water]
+[doped_water] found and removed from construction queue
+queue (pass1): [gd_scintillator]
+[gd_scintillator] found and removed from construction queue
+queue (pass1): [nonreflective_tarp]
+[nonreflective_tarp] found and removed from construction queue
+Not all materials were found in the database. Trying to load them from NIST.
+queue (pass2): [Gd_wbls_10pct]
+[Gd_wbls_10pct] found and removed from construction queue
+Registering box
+Registering tube
+Registering torus
+Registering sphere
+Registering reflector
+Registering reflector_waveguide
+Registering pmtarray
+Registering pmtcoverage
+Registering waterboxarray
+Registering bubble
+Registering ptube
+Registering psphere
+Registering revarray
+Registering tubearray
+Registering revolve
+Registering revolveChimney
+Registering lens
+Registering polygon
+Registering border
+Registering convexlens
+Registering tubeinter
+Registering perfbox
+Registering cut_tube
+Registering watchmanshield
+Registering CherenkovSource
+Registering polygonarray
+Registering wlsp
+Registering wlsp_cover
+GeoSolidFactory: Constructing volume world
+GeoSolidFactory: Constructing volume hall
+GeoSolidFactory: Constructing volume tank
+GeoSolidFactory: Constructing volume liner
+GeoSolidFactory: Constructing volume detector
+GeoPMTArrayFactory: Constructing volume inner_pmts
+DB: Field GEO[inner_pmts].light_cone lookup failure.  Does not exist or has wrong type.

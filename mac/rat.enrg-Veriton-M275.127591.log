@@ -1,0 +1,65 @@
+RAT, version 1.0.1
+Status messages enabled: info detail 
+Hostname: enrg-Veriton-M275 PID: 127591
+Seeding random number generator: -1833061432
+
+**************************************************************
+ Geant4 version Name: geant4-10-04-patch-03    (8-February-2019)
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+<<< Geant4 Physics List simulation engine: Shielding 2.1
+
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Current available graphics systems are:
+ASCIITree (ATree)
+DAWNFILE (DAWNFILE)
+G4HepRep (HepRepXML)
+G4HepRepFile (HepRepFile)
+G4HepRep (HepRepXML)
+RayTracer (RayTracer)
+VRML1FILE (VRML1FILE)
+VRML2FILE (VRML2FILE)
+OpenGLImmediateQt (OGLIQt)
+OpenGLStoredQt (OGLSQt)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByCharge
+  drawByParticleID
+  drawByOriginVolume
+  drawByAttribute
+
+Registered models:
+  watchmodel (Current)
+
+Registered filter factories:
+  chargeFilter
+  particleFilter
+  originVolumeFilter
+  attributeFilter
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+"/vis/list" to see available colours.
+DB: Setting DETECTOR[] experiment to Watchman
+DB: Setting DETECTOR[] detector_factory to Watchman
+DB: Setting WATCHMAN_PARAMS[] photocathode_coverage to 0.25
+Loading experiment-specific RATDB files for: Watchman
+Loading detector factory Watchman
+DetectorConstruction: Could not open geo_file or detector_factory
